@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  height: 100vh;
+}
+/* TODO: Write CSS rules that cause the header and .collage div to be centered on the page */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  position: sticky;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  top: 0px;
+}
+
+/* TODO: Write CSS rules that ensure that no more than 4 photos appear on a row */
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 33px;
+}
+
+.more-btn {
+  position: fixed;
+  bottom: 5vh;
+  height: 5vh;
+  width: 6vw;
+  font-size: 2vh;
+  border-radius: 5px;
+  background-color: rebeccapurple;
+  color: white;
+}
