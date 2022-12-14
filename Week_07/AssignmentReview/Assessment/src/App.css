@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+nav a {
+  padding: 0.5em;
+  margin: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.productSummary {
+  margin: 1em auto;
+  width: 30em;
+  padding: 1em;
+  background: #ececec;
+  box-shadow: 1px 1px grey;
+}
+
+.productArrow {
+  float: right;
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: -6px;
+}
