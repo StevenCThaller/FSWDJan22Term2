@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-rest-api-practice",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "client": "npm start --workspace=client",
+    "server": "npm start --workspace=server",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
