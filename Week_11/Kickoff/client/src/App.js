@@ -1,12 +1,12 @@
-import { useContext } from 'react';
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import { ContextDescription, Header, SetClouds } from './components'
-import { uiContext } from './contexts/UIProvider';
-import { ContextPage, LandingPage, ReducersPage } from './pages';
+import { useContext } from "react";
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import { ContextDescription, Header, SetClouds } from "./components";
+import { uiContext } from "./contexts/UIProvider";
+import { ContextPage, LandingPage, ReducersPage } from "./pages";
 
 function App() {
-  const { theme } = useContext(uiContext)
+  const { theme } = useContext(uiContext);
   return (
     <div className={`themeContainer ${theme}`}>
       <Header />
